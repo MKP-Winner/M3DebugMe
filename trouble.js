@@ -17,10 +17,6 @@ section.style.fontWeight = "bold";
 section.style.fontStyle = "italic";
 section.style.fontSize = "20px";
 
-// Sets the customization for each individual color/div tag
-// .innerHTML is used to add content within each div tag.
-// .style.backgroundColor is used to assign a different background color to each div
-
 // RED
 // FIXED: Changed getelementById to getElementById (correct capitalization)
 const red = document.getElementById("red");
@@ -53,13 +49,3 @@ indigo.style.backgroundColor = "indigo";
 const violet = document.getElementById("violet");
 violet.innerHTML = "VIOLET";
 violet.style.backgroundColor = "violet";
-
-/* SUMMARY OF ALL FIXES:
- * 1. Line 2: Added missing semicolon after v2 = 4
- * 2. Line 4-5: Uncommented alert and created 'equals' variable
- * 3. Line 9: Fixed getElementsById → getElementById (singular)
- * 4. Line 13: Fixed typo stlye → style
- * 5. Line 23: Fixed getelementById → getElementById
- * 6. Line 30: Fixed innerhtml → innerHTML (case-sensitive)
- * 7. Line 41: Fixed variable name purple → green
- */
